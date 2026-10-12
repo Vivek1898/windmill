@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.831.0](https://github.com/windmill-labs/windmill/compare/v1.830.0...v1.831.0) (2026-10-12)
+
+
+### Features
+
+* add python 3.14 and 3.15 to the supported instance versions ([#11654](https://github.com/windmill-labs/windmill/issues/11654)) ([74c9b0c](https://github.com/windmill-labs/windmill/commit/74c9b0cb2eebc16dd5e23f23be89b127bcbe6ec2))
+* redesign the s3 explorer and show data files as tables ([#11642](https://github.com/windmill-labs/windmill/issues/11642)) ([9fa9b77](https://github.com/windmill-labs/windmill/commit/9fa9b7792676fbedcbc4dc37ebb883f5ff5abb35))
+
+
+### Bug Fixes
+
+* keep ai agent schema property order stable across jobs ([#11687](https://github.com/windmill-labs/windmill/issues/11687)) ([a8e2f1f](https://github.com/windmill-labs/windmill/commit/a8e2f1f1ca28e3352aff8a450188e3ff75a9637c))
+* keep preserve_step_tags on saved branch and loop flow nodes ([#11660](https://github.com/windmill-labs/windmill/issues/11660)) ([dedd775](https://github.com/windmill-labs/windmill/commit/dedd77587f3234f3e480388b00340394794ac5bb))
+* parse python 3.12-3.15 syntax in the python parsers ([#11675](https://github.com/windmill-labs/windmill/issues/11675)) ([aae5f2e](https://github.com/windmill-labs/windmill/commit/aae5f2efaa772d5bc6d7d1e4537d7f6748e50e61))
+* resolve $var: references in mcp resource headers ([#11679](https://github.com/windmill-labs/windmill/issues/11679)) ([478eef7](https://github.com/windmill-labs/windmill/commit/478eef735222e60de8ed6086f6b036e2346f1de4))
+
 ## [1.830.0](https://github.com/windmill-labs/windmill/compare/v1.829.0...v1.830.0) (2026-10-09)
 
 
